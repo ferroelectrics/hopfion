@@ -115,9 +115,9 @@ def main():
             simfile.writelines(new_config)
 
         ferret_run = f'mpiexec -n 28 ferret-opt -i {sim_filename}'
-        retcode = run(ferret_run, shell=True)
-        #  if retcode != 0:
-        #      exit(1)
+        procresult = run(ferret_run, shell=True)
+        if procresult.returncode != 0:
+            exit(1)
 
 
 if __name__ == '__main__':

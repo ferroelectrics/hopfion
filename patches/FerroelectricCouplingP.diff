@@ -1,0 +1,16 @@
+94c94
+<   return - RpCoupled;
+---
+>   return -2.0 * RpCoupled;
+108c108
+<   return - std::pow(_len_scale, 3.0) * sum * _phi[_j][_qp] * _test[_i][_qp];
+---
+>   return -2.0 *std::pow(_len_scale, 3.0) * sum * _phi[_j][_qp] * _test[_i][_qp];
+152c152
+<     return - std::pow(_len_scale, 3.0) * sum * _phi[_j][_qp] * _test[_i][_qp];
+---
+>     return -2.0 * std::pow(_len_scale, 3.0) * sum * _phi[_j][_qp] * _test[_i][_qp];
+172c172
+<     return - std::pow(_len_scale, 3.0) * sum * _test[_i][_qp];
+---
+>     return -2.0 * std::pow(_len_scale, 3.0) * sum * _test[_i][_qp];

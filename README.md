@@ -1,5 +1,3 @@
 # hopfion
 
-Here is a collection of tools to conduct simulations as described in
-... . You'll need [iterscheme](https://github.com/ferroelectrics/iterscheme)
-to launch **pderunner.py**.
+Here is the collection of tools used in conducting simulations described in [Luk’yanchuk I., Tikhonov Y., Razumnaya A. and Vinokur V. Hopfions emerge in ferroelectrics. Nat Commun 11, 2433 (2020)](https://doi.org/10.1038/s41467-020-16258-w). You'll need [iterscheme](https://github.com/ferroelectrics/iterscheme) to launch **pderunner.py**.  Tools work with the package [Ferret](https://bitbucket.org/mesoscience/ferret), commit  version *25cc8430a1c46e8d543f1509aa8d8d6ccbff89ba* and corresponding  associated software libraries and frameworks indicated there. One has first to apply the patches amending the original code of Ferret by implementing the correct free energy functional as presented in [Nat Commun 11, 2433 (2020)](https://doi.org/10.1038/s41467-020-16258-w).

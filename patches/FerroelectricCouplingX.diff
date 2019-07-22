@@ -1,0 +1,8 @@
+75c75
+<   return Rp;
+---
+>   return -Rp;
+110c110
+<     return std::pow(_len_scale, 2.0) * _phi[_j][_qp] * sum1;
+---
+>     return -std::pow(_len_scale, 2.0) * _phi[_j][_qp] * sum1;
